@@ -8,7 +8,7 @@ const Navigation = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        axios.get("http://localhost:8080/user/check", { withCredentials: true })
+        axios.get("https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/check", { withCredentials: true })
             .then((response) => {
                 if(response.data === true) {
                     dispatch({type : 'login'})
