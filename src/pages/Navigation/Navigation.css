@@ -1,0 +1,32 @@
+.Nav {
+    display: flex;
+    width: 100vw;
+    height: 9vh;
+    background-color: aqua;
+    position: relative;
+}
+
+.Nav a {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY( -50% );
+    font-weight: lighter;
+}
+
+.Logo {
+    font-size: 45px;
+    color: black;
+    align-items: center;
+    left: 5%;
+}
+
+.Nav .Login {
+    font-size: 23px;
+    right: 5%;
+}
+.Nav .Signup {
+    font-size: 23px;
+    right: 12%;
+}

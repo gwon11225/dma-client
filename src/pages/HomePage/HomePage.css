@@ -1,0 +1,37 @@
+.Post {
+    border-bottom: 1px solid black;
+    width: 75vw;
+    height: 15vh;
+    position: relative;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.Post .title {
+    position: absolute;
+    left: 3%;
+}
+.Post .content {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+}
+.Post .writer {
+    position: absolute;
+    right: 10%;
+}
+
+.NumberPost {
+    display: inline-block;
+    cursor: pointer;
+    width: 25px;
+    font-size: 17px;
+}
+
+.NumberDiv{
+    width : 75vw;
+    margin : auto;
+    text-align : center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

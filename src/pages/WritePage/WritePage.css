@@ -1,0 +1,27 @@
+.WriteDiv {
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.WriteDiv input {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+.WriteDiv textarea {
+    width: 100%;
+    height: 68%;
+    font-size: 20px;
+    resize: none;
+}
+
+.WriteDiv button {
+    float: right;
+    margin-top: 2%;
+    width: 20%;
+    height: 10%;
+}

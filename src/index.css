@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+}
+.Headers{width: 100vw;height: 10vh; background: linear-gradient(89.97deg, #4646dd, #67e767); ;position: fixed;}
+.Headers a{text-decoration: none;line-height: 7vh; color: darkslategray; display: inline-block;}
+.Right{margin-right: 50px;float: right;}
