@@ -30,7 +30,7 @@ const SignupPage = () => {
             password : password
         }
 
-        axios.post('http://localhost:8080/user/signup', signupData)
+        axios.post('https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/signup', signupData)
             .then((response) => {
                 if(response.data === "회원가입 성공"){
                     alert('회원가입에 성공하셨습니다!');

@@ -25,7 +25,7 @@ const LoginPage = () => {
             password : password
         }
 
-        axios.post('http://localhost:8080/user/login', loginData, {withCredentials: true })
+        axios.post('https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/login', loginData, {withCredentials: true })
             .then((response) => {
                 console.log(response);
                 Dispatch({type : 'login'});

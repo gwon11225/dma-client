@@ -21,7 +21,7 @@ const WritePage = () => {
             title : title,
             content : content
         }
-        axios.post('http://localhost:8080/post/create', postData, {withCredentials : true})
+        axios.post('https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/post/create', postData, {withCredentials : true})
             .then((response) => {
                 navigate('/')
             })

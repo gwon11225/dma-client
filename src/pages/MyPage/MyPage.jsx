@@ -13,7 +13,7 @@ const MyPage = () => {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8080/user/getUserInfo", { withCredentials: true })
+            .get("https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/getUserInfo", { withCredentials: true })
             .then((response) => {
                 if (response.data == null) {
                     console.log("response data is null")
@@ -35,7 +35,7 @@ const MyPage = () => {
     }, [userInfo]);
 
     const logout = () => {
-        axios.get("http://localhost:8080/user/logout", { withCredentials: true })
+        axios.get("https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/logout", { withCredentials: true })
             .then((response) => {
                 Dispatch({ type: 'logout' });
             })
@@ -43,7 +43,7 @@ const MyPage = () => {
     }
 
     const deleteAccout = () => {
-        axios.get("http://localhost:8080/user/delete", { withCredentials: true })
+        axios.get("https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/user/delete", { withCredentials: true })
             .then((response) => {
                 Dispatch({ type: 'logout' });
             })

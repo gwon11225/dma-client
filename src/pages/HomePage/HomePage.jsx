@@ -7,7 +7,7 @@ const HomePage = () => {
     const [number, setNumber] = useState(1);
     
     useEffect(() => {
-        axios.get("http://localhost:8080/post", {params: {number: number}})
+        axios.get("https://port-0-dma-server-eu1k2llkuxbztt.sel4.cloudtype.app/post", {params: {number: number}})
             .then((response) => {
                 setPost(response.data)
                 console.log(response)
